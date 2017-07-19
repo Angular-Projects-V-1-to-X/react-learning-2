@@ -3,7 +3,7 @@ module.exports = {
     "Joe's Pizza on Bloor Ave": {
       "orders": [
         {
-          "human": "Rami Sayar",
+          "human": "Niranjan Reddy",
           "time": new Date(2016, 4, 5, 15, 11, 45, 0),
           "pizzas": [{
             "toppings": "Meat-Lovers",
@@ -14,10 +14,10 @@ module.exports = {
           "status": "In The Oven" // status := Open -> Confirmed -> In The Oven -> Delivered
         },
         {
-          "human": "Jeremy Foster",
+          "human": "Suraj Sahu",
           "time": new Date(2016, 4, 4, 20, 31, 0, 0),
           "pizzas": [{
-            "toppings": "cheese",
+            "toppings": ["cheese"],
             "size": "XL"
           }],
           "price": 15,
@@ -31,7 +31,7 @@ module.exports = {
     }
   },
   "humans": {
-    "Rami Sayar" : {
+    "Niranjan Reddy" : {
       "conversations": [
         {
           "who": "bot",
@@ -42,7 +42,7 @@ module.exports = {
           "who": "human",
           "text": "Can I have a small meat-lovers pizza?",
           "time": new Date(2016, 4, 5, 15, 10, 30, 0)
-        }, 
+        },
         {
           "who": "bot",
           "text": "Where would you like it delivered?",
@@ -67,7 +67,7 @@ module.exports = {
         }
       ]
     },
-    "Jeremy Foster" : {
+    "Suraj Sahu" : {
       "conversations": [
         {
           "who": "bot",
@@ -78,7 +78,7 @@ module.exports = {
           "who": "human",
           "text": "I would like to order an extra-large cheese pizza",
           "time": new Date(2016, 4, 4, 20, 30, 15, 0)
-        }, 
+        },
         {
           "who": "bot",
           "text": "Where would you like it delivered?",
