@@ -17,6 +17,7 @@ TABLE OF CONTENT FOR THIS COURSE.....
 		Super eco-system - webpack, hot module reload, states iteration & management, long-time support
 		light-weight
 
+	
 
 
 =================================================================
@@ -25,6 +26,9 @@ Install NodeJS
 
 npm install -g create-react-app
 
+	INSTALL WEBPACK:
+		npm install -g webpack webpack-dev-server
+
 create-react-app <APP NAME>
 
 cd <APP NAME>
@@ -32,6 +36,9 @@ cd <APP NAME>
 npm start
 
 	-	npm run build	-	For production.
+	
+npm run start-webpack-server
+	
 	
 
 	
