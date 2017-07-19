@@ -1,0 +1,48 @@
+TABLE OF CONTENT FOR THIS COURSE.....
+
+	1. Welcome to React
+	2. Introduction to Components
+	3. Handling Data and State with React
+	4. More React with Routers and Other Add-ons
+	5. ES2015 with React, Webpack, and Other Tools
+	6. Connecting Pizza Box App with the Backend - BOTs
+	
+	
+	
+	HTML, CSS, & JS
+	Why learn React?
+		Let React manipulate the DOM for you rather than you do it using JQuery, etc.
+		Excessive DOM manipulation which is expensive is avoided.
+		Faster hence better performance.
+		Super eco-system - webpack, hot module reload, states iteration & management, long-time support
+		light-weight
+
+
+
+=================================================================
+
+Install NodeJS
+
+npm install -g create-react-app
+
+create-react-app <APP NAME>
+
+cd <APP NAME>
+
+npm start
+
+	-	npm run build	-	For production.
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Further Guidance:	https://www.youtube.com/watch?v=-40p_dZccPg
