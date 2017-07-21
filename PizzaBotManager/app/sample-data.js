@@ -27,7 +27,19 @@ module.exports = {
       ]
     },
     "Joe's Pizza on University Ave": {
-      "orders": []
+      "orders": [
+        {
+          "human": "Teyjansh Reddy",
+          "time": new Date(2016, 4, 4, 20, 31, 0, 0),
+          "pizzas": [{
+            "toppings": ["cheese"],
+            "size": "XL"
+          }],
+          "price": 15,
+          "address": "87 Jameson Ave, Toronto, ON, Canada",
+          "status": "Delivered" // status := Open -> Confirmed -> In The Oven -> Delivered
+        }
+      ]
     }
   },
   "humans": {
@@ -99,6 +111,42 @@ module.exports = {
           }],
           "price": 15,
           "address": "123 Sesame Street, Montreal, Canada",
+          "status": "Delivered" // status := Open -> Confirmed -> In The Oven -> Delivered
+        }
+      ]
+    },
+    "Teyjansh Reddy" : {
+      "conversations": [
+        {
+          "who": "bot",
+          "text": "Hello, can I take your order?",
+          "time": new Date(2016, 4, 4, 20, 30, 0, 0)
+        },
+        {
+          "who": "human",
+          "text": "I would like to order an extra-large cheese pizza",
+          "time": new Date(2016, 4, 4, 20, 30, 15, 0)
+        },
+        {
+          "who": "bot",
+          "text": "Where would you like it delivered?",
+          "time": new Date(2016, 4, 4, 20, 30, 30, 0)
+        },
+        {
+          "who": "human",
+          "text": "87 Jameson Ave, Toronto, ON, Canada",
+          "time": new Date(2016, 4, 4, 20, 30, 45, 0)
+        },
+      ],
+      "orders": [
+        {
+          "time": new Date(2016, 4, 4, 20, 31, 0, 0),
+          "pizzas": [{
+            "toppings": ["cheese"],
+            "size": "XL"
+          }],
+          "price": 15,
+          "address": "87 Jameson Ave, Toronto, ON, Canada",
           "status": "Delivered" // status := Open -> Confirmed -> In The Oven -> Delivered
         }
       ]
