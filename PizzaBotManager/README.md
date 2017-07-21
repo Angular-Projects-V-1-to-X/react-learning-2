@@ -1,5 +1,5 @@
 # PizzaBotManager
-Sample app for the [React MVA](https://mva.microsoft.com/en-US/training-courses/react-the-definitive-beginners-guide-16547)
+Sample app for the [React MVA]
 
 ## Dependencies:
 * [React](https://facebook.github.io/react/)
@@ -8,7 +8,7 @@ Sample app for the [React MVA](https://mva.microsoft.com/en-US/training-courses/
 
 ## How to Run Debug Server
 
-Make sure you have the Webpack dev server installed: 
+Make sure you have the Webpack dev server installed:
 
 ```
 npm install -g webpack webpack-dev-server
